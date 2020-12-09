@@ -19,7 +19,9 @@ class Paper{
     
     display(){
     var  pos = this.body.position
-
+pos.x=mouseX;
+        pos.y=mouseY;
+        
 
    push()
    translate(pos.x,pos.y);
