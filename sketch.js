@@ -23,7 +23,7 @@ function setup() {
 	ground = new Ground (600,380,1600,10);
 	paper = new Paper (200,250,50,50);
 	box1 = new Dustbin (500,360,100,10);
-  box2 = new Dustbin (500,360,10,100);
+  box2 = new Dustbin (550,360,10,100);
 	box3 = new Dustbin (600,360,10,100);
 
 }
@@ -33,8 +33,7 @@ function draw() {
 
   background(255);
   Engine.update(engine);
-  paper.x = mouseX;
-  paper.y = mouseY;
+
   ground.display();
   paper.display();
   box1.display();
