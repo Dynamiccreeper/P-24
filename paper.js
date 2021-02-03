@@ -19,13 +19,14 @@ class Paper{
     
     display(){
     var  pos = this.body.position
-pos.x=mouseX;
-        pos.y=mouseY;
-        
-
+var angle  = this.body.position;
+//paper.body.position.x=mouseX
+//paper.body.position.y=mouseY
    push()
-   translate(pos.x,pos.y);
-    rectMode(CENTER);
+   translate(pos.x,pos.y)
+   rotate(angle);
+    imageMode(CENTER);
+
     strokeWeight(3);
     fill("purple");
     ellipse(0,0,this.r,this.r);
