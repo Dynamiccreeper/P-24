@@ -22,8 +22,8 @@ function setup() {
    // dustbin = new Dustbin (500,780,10,100);
 	ground = new Ground (600,380,1600,10);
 	paper = new Paper (200,250,50,50);
-	box1 = new Dustbin (550,380,100,10);
-  box2 = new Dustbin (500,330,10,100);
+	box1 = new Dustbin (550,330,100,20);
+        box2 = new Dustbin (500,330,10,100);
 	box3 = new Dustbin (600,330,10,100);
 
 }
